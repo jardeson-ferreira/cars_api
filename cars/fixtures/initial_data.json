@@ -1,0 +1,45 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$4Rtev09aFHatEP13lSZmCa$U7JCOzkWK/ZpbRYZ6HgSiX87bnhOMyC0tGl4qbfIMqA=",
+            "last_login": "2024-10-03T22:41:38.151Z",
+            "is_superuser": true,
+            "username": "Admin",
+            "first_name": "Admin",
+            "last_name": "Admin",
+            "email": "admin@user.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-10-03T22:40:54.395Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "cars.brand",
+        "pk": 1,
+        "fields": {
+            "name": "Volkswagen",
+            "description": "Marca Alemã",
+            "created_at": "2024-10-03T22:48:20.747Z",
+            "updated_at": "2024-10-03T22:48:20.747Z"
+        }
+    },
+    {
+        "model": "cars.car",
+        "pk": 1,
+        "fields": {
+            "model": "Polo Track",
+            "brand": 1,
+            "factory_year": 2024,
+            "model_year": 2024,
+            "color": "Branco",
+            "owner": 1,
+            "description": "Volkswagen Polo Track 1.0 Flex",
+            "created_at": "2024-10-03T22:49:17.862Z",
+            "updated_at": "2024-10-03T22:49:17.862Z"
+        }
+    }
+]
