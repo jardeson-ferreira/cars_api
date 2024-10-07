@@ -8,6 +8,7 @@ django = "==5.0"
 django-jazzmin = "==3.0.0"
 djangorestframework = "==3.15.2"
 drf-yasg = "==1.21.7"
+django-rql = "==4.4.1"
 
 [dev-packages]
 flake8 = "*"
