@@ -9,10 +9,11 @@ django-jazzmin = "==3.0.0"
 djangorestframework = "==3.15.2"
 drf-yasg = "==1.21.7"
 django-rql = "==4.4.1"
+djangorestframework-simplejwt = "==5.3.1"
 
 [dev-packages]
-flake8 = "*"
-black = "*"
+flake8 = "==7.1.1"
+black = "==24.8.0"
 
 [requires]
 python_version = "3.11"
