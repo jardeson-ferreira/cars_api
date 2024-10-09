@@ -12,11 +12,13 @@ Este é um projeto de API RESTful para gerenciamento de veículos, desenvolvido 
 ## Funcionalidades
 
 - **Autenticação JWT**: Autenticação baseada em tokens JWT.
+- **Permissões**: Esquema de permissões de usuários do Django e permissões personalizadas.
 - **Filtros RQL**: Filtros avançados utilizando Resource Query Language.
 - **Admin Customizado**: Painel administrativo customizado com django-jazzmin.
 - **Documentação Automática**: Geração automática de documentação de API com Swagger.
 - **Fixtures**: Possibilidade de carregar dados iniciais a partir de arquivos JSON.
 - **Operações CRUD**: Operações completas de criação, leitura, atualização e exclusão de veículos.
+- **Paginação**: Recurso de paginação do Django Rest Framework.
 
 ## Requisitos
 
@@ -34,11 +36,9 @@ Siga os passos abaixo para configurar o projeto localmente:
    git clone https://github.com/jardeson-ferreira/cars_api.git
    cd cars_api
 
-2. **Instale as dependências e ative um ambiente virtual**:
+2. **Ative o ambiente virtual**:
 
    ```bash
-   pip install pipenv
-   pipenv install
    pipenv shell
 
 2. **Faça as migrações do banco de dados e carregue os dados iniciais a partir do arquivo de fixtures**:
